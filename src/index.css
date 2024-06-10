@@ -1,0 +1,55 @@
+*{
+  margin: 0;
+  padding: 0;
+
+  
+}
+
+.app{
+  display: grid;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  
+  padding: 50px;
+  font-size: 40px;
+
+  background: rgb(2,0,36);
+background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+}
+
+.qr-code{
+  padding: 30px;
+  margin-top: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+
+  background-color:white;
+  border-radius: 30px;
+}
+
+.qr-code input{
+  font-size: 30px;
+  border-radius: 30px;
+}
+
+.qr-code button{
+  font-size: 30px;
+  border-radius: 20px;
+}
+
+.qr-code .pic{
+  display: grid;
+}
+
+.my-heading{
+  background-color: white;
+  border-radius: 30px;
+  padding:10px
+}
+
+#qr-code-value{
+  margin-top: 30px;
+}
